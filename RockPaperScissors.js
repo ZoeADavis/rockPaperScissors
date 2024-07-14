@@ -36,7 +36,7 @@ const getUserChoice = (userInput) => {
       }
     }
     if (userChoice === "scissors") {
-      if (cumputerChoice === "rock") {
+      if (computerChoice === "rock") {
         return "sorry, computer won!";
       } else {
         return "congratulations, you won!";
